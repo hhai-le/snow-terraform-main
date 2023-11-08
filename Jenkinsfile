@@ -2,7 +2,7 @@ pipeline {
   agent any
 
   stages {
-    stage('Ansible - checkout SCM') {
+    stage('Init Working Dir') {
       steps
       {
         sh("rm -rf *")
